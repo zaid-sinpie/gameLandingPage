@@ -7,14 +7,29 @@ html{
 }
 
 .header {
-  animation: animationFadeIn ease 1.5s;
+  animation: animationSlideInLeft ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes animationFadeIn {
+.hero-section figure{
+  animation: animationSlideInRight ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationSlideInLeft {
   0% {
     transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animationSlideInRight {
+  0% {
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(0);
