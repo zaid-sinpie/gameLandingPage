@@ -2,18 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
 
-.header{
-    animation: animationFadeIn ease 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+.header {
+  animation: animationFadeIn ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes animationFadeIn {
-    0%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.wrapper-section::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper-section {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.hero-section {
+  background: url(./assets/background1.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-width: 100vw;
+  min-height: 100vh;
 }

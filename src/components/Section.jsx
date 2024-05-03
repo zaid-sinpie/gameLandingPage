@@ -1,7 +1,7 @@
 
 const Section = ({children}) => {
   return (
-    <section className='relative w-[100vw] h-[100vh] bg-[#555555] flex justify-start items-center'>
+    <section className='wrapper-section relative w-screen h-screen bg-gray-700 overflow-x-auto overflow-y-hidden flex scroll-smooth'>
       {children}
     </section>
   )
