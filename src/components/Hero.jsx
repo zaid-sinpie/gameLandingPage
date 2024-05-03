@@ -15,7 +15,7 @@ const Hero = () => {
           <a href="#"><i className={`fa-brands fa-twitter ${cssClasses}`}></i></a>
           <a href="#"><i className={`fa-brands fa-youtube ${cssClasses}`}></i></a>
           <a href="#"><i className={`fa-brands fa-linkedin ${cssClasses}`}></i></a>
-          <a href="#"><i className={`fa-brands fa-square-instagram ${cssClasses}`}></i></a>
+          <a href="#"><i className={`fa-brands fa-discord ${cssClasses}`}></i></a>
         </div>
       </figure>
     </section>

@@ -18,6 +18,10 @@ html{
   animation-fill-mode: forwards;
 }
 
+.download-nav-btn{
+  animation: animationFadeIn ease 3s;
+}
+
 @keyframes animationSlideInLeft {
   0% {
     transform: translateX(-100%);
@@ -26,13 +30,36 @@ html{
     transform: translateX(0);
   }
 }
-
 @keyframes animationSlideInRight {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(0);
+  }
+}
+@keyframes animationSlideInTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animationSlideInBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animationFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
