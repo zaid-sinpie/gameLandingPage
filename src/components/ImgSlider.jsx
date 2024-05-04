@@ -4,7 +4,7 @@ import image2 from "../assets/background1.png";
 
 const ImgSlider = () => {
   return (
-    <figure className="w-auto ml-[10rem]">
+    <figure className="w-auto ml-[10rem] max-sm:ml-0 max-sm:flex max-sm:flex-col max-sm:mt-[5rem] max-sm:justify-around max-sm:items-center">
       <div className="h-[45%] max-md:w-[30%] lg:w-[40%] max-sm:h-auto max-sm:w-[80%] max-sm:ml-[1rem] bg-black border-8 border-[#adadad] flex overflow-hidden shadow-md">
         <img src={image1} alt="background" className="h-full w-full slider" />
         <img src={image2} alt="background" className="h-full w-full slider" />

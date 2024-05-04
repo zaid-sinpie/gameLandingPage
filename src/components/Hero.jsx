@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   const cssClasses = ` border-2 border-[#414141] p-1 rounded-md bg-[#414141] text-[#d7ff55] hover:bg-[#d7ff55] hover:text-[#414141]`;
   return (
-    <section className="hero-section flex justify-end items-end min-h-[100vh] min-w-[100vw]">
-      <figure className="h-full flex flex-col justify-between items-end text-red-500 py-[5rem]">
+    <section className="hero-section flex justify-end max-sm:justify-end items-end max-sm:items-center min-h-[100vh] min-w-[100vw]">
+      <figure className="h-full flex flex-col justify-between items-end text-red-500 py-[5rem] max-sm:gap-4">
         <div className="px-[2rem] py-[1rem] bg-[#5b5b5bc5] backdrop-blur-sm text-[18px] font-bold text-[#d7ff55] rounded-l-full border-2 border-[#d7ff55] hover:text-[#414141] hover:bg-[#d7ff55a2] cursor-pointer">
           <button>
             <h2>DOWNLOAD <i className="fa-solid fa-download"></i></h2>
