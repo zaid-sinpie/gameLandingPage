@@ -14,7 +14,7 @@ const Section = ({ children }) => {
         ref={containerRef}
         className="scroll-container flex"
         onWheel={handleScroll} // Attach the handleScroll function to the onWheel event
-        style={{ overflowX: 'scroll', overflowY: 'hidden' }} // Ensure overflow properties are set
+        style={{ overflowX: 'scroll', overflowY: 'hidden'}} // Ensure overflow properties are set
       >
         {children}
       </div>
