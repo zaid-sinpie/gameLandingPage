@@ -29,19 +29,19 @@ const ImgSlider = () => {
   }, []);
   return (
     <div className="overflow-hidden max-sm:h-auto">
-    <figure
-      className={`opacity-0 w-auto ml-[10rem] max-sm:ml-0 max-sm:flex max-sm:flex-col max-sm:justify-around max-sm:items-center ${
-        isVisible ? "animate-slide-in" : ""
-      }`}
-      ref={sliderRef}
-    >
-      <div className="h-[45%] max-md:w-[30%] lg:w-[40%] max-sm:h-auto max-sm:w-[80%] max-sm:ml-[1rem] bg-black border-8 border-[#adadad] flex overflow-hidden shadow-md">
-        <img src={image1} alt="background" className="h-full w-full slider" />
-        <img src={image2} alt="background" className="h-full w-full slider" />
-        <img src={image1} alt="background" className="h-full w-full slider" />
-        <img src={image2} alt="background" className="h-full w-full slider" />
-      </div>
-    </figure>
+      <figure
+        className={`opacity-0 flex w-auto ml-[10rem] max-sm:ml-0  max-sm:flex-col max-sm:justify-around max-sm:items-center ${
+          isVisible ? "animate-slide-in" : ""
+        }`}
+        ref={sliderRef}
+      >
+        <div className="h-[45%] max-md:w-[30%] lg:w-[40%] max-sm:h-auto max-sm:w-[80%] max-sm:ml-[1rem] bg-black border-[0.8rem] border-[#adadad] flex overflow-hidden shadow-md">
+          <img src={image1} alt="background" className="h-full w-full slider" />
+          <img src={image2} alt="background" className="h-full w-full slider" />
+          <img src={image1} alt="background" className="h-full w-full slider" />
+          <img src={image2} alt="background" className="h-full w-full slider" />
+        </div>
+      </figure>
     </div>
   );
 };
