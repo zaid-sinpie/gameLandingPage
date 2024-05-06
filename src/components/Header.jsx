@@ -8,7 +8,7 @@ const Header = () => {
           <div className="py-3 px-6 rounded-full bg-[#d7ff55]"></div>
         </div> */}
         <button className="bg-[#d7ff55] px-1 py-1 max-sm:px-[0.5px] max-sm:py-[0.5px] rounded-sm text-[#414141] border-[1px] border-[#d7ff55] hover:text-[#d7ff55] hover:bg-[#414141]">
-          Download
+          Register
         </button>
       </div>
       <div className="flex flex-col max-sm:flex-row h-auto gap-[10rem] max-md:gap-0 max-sm:gap-1 sm:gap-0">
@@ -28,7 +28,7 @@ const Header = () => {
         </figure>
         <button className="text-[15px] font-bold bg-[#414141] text-[#d7ff55] rounded-md py-2 max-sm:px-2 hover:bg-transparent hover:text-[#414141] border-2 border-[#414141]">
           <p className="font-bold text-2xl -rotate-12">WLZ</p>
-          Register
+          Download
         </button>
       </div>
     </ul>
