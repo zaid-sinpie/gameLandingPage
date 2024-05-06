@@ -35,7 +35,7 @@ const ContentText = () => {
     <div className={`ml-[10rem] max-sm:ml-10 h-auto w-auto overflow-hidden`}>
       <h1
         ref={contentRef}
-        className={`opacity-0 text-6xl font-Lilitai font-extrabold text-[#696969] max-sm:ml-0 ${
+        className={`opacity-0 text-8xl max-sm:text-6xl font-Lilitai font-extrabold text-[#696969] max-sm:ml-0 ${
           isVisible ? "slide-in-bottom" : ""
         }`}
       >
