@@ -35,7 +35,7 @@ const ImgSlider = () => {
         }`}
         ref={sliderRef}
       >
-        <div className="h-[45%] max-md:w-[30rem] lg:w-[30rem] max-sm:h-auto max-sm:w-[80%] bg-black border-[0.8rem] border-[#adadad] flex overflow-hidden shadow-md">
+        <div className="h-[45%] max-md:w-[30rem] lg:w-[30rem] max-sm:h-auto max-sm:w-[80%] bg-black border-[0.8rem] border-[#adadad] flex overflow-hidden shadow-md rounded-sm">
           <img src={image1} alt="background" className="h-full w-full slider" />
           <img src={image2} alt="background" className="h-full w-full slider" />
           <img src={image1} alt="background" className="h-full w-full slider" />
