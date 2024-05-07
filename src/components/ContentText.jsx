@@ -32,7 +32,7 @@ const ContentText = () => {
   }, []);
 
   return (
-    <div className={`ml-[10rem] max-sm:ml-10 h-auto w-auto overflow-hidden`}>
+    <div className={`ml-[10rem] max-sm:ml-10 h-auto w-auto overflow-hidden z-10`}>
       <h1
         ref={contentRef}
         className={`opacity-0 text-8xl max-sm:text-6xl 2xl:text-[9rem] font-Lilitai font-extrabold text-[#696969] max-sm:ml-0 ${
