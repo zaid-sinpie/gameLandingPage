@@ -5,7 +5,7 @@ const Section = ({ children }) => {
 
   const handleScroll = (e) => {
     // Horizontal scrolling
-    containerRef.current.scrollLeft += e.deltaY / 4;
+    containerRef.current.scrollLeft += e.deltaY + 3;
   };
 
   return (
