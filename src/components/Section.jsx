@@ -5,7 +5,7 @@ const Section = ({ children }) => {
 
   const handleScroll = (e) => {
     // Horizontal scrolling
-    containerRef.current.scrollLeft += e.deltaY * 20;
+    containerRef.current.scrollLeft += e.deltaY;
   };
 
   return (
@@ -14,7 +14,7 @@ const Section = ({ children }) => {
         ref={containerRef}
         className="scroll-container flex max-sm:flex-col"
         onWheel={handleScroll} // Attach the handleScroll function to the onWheel event
-        style={{ overflowX: 'scroll', overflowY: 'hidden',scrollBehavior:'smooth'}} // Ensure overflow properties are set
+        style={{ overflowX: 'scroll', overflowY: 'hidden'}} // Ensure overflow properties are set
       >
         {children}
       </div>
