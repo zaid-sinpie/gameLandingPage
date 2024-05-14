@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <ul className="header flex text-stone-500 flex-col max-sm:flex-row justify-between max-sm:justify-center item-center bg-[#d7ff55] h-full w-[8rem] px-4 max-sm:px-0 fixed left-0 top-0 py-2 gap-8 max-sm:gap-2 z-10 max-sm:w-full max-sm:h-[6rem]">
+    <ul className="header flex text-stone-500 flex-col max-sm:flex-row justify-between max-sm:justify-center item-center bg-[#d7ff55] h-full w-[8rem] px-4 max-sm:px-0 fixed left-0 top-0 py-2 gap-8 max-sm:gap-2 max-sm:w-full max-sm:h-[6rem] z-50">
       <div className="font-bold bg-[#414141] px-1 py-2 rounded-md flex flex-col items-center justify-center cursor-pointer gap-2 max-sm:w-fit">
         <p className="text-2xl max-sm:text-xl text-[#d7ff55]">JOIN</p>
         {/* <div className="flex gap-4">

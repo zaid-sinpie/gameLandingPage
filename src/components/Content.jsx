@@ -13,9 +13,10 @@ const Content = () => {
             Download Now
           </button>
         </div>
+        
       </div>
       <ContentText />
-      <img src={imgBg} alt="background spider image" className="absolute w-[100rem] -right-[20rem] opacity-5 pointer-events-none"/>
+      <img src={imgBg} alt="background spider image" className="absolute w-[100rem] -right-[20rem] opacity-5 pointer-events-none max-sm:-right-[5rem]"/>
     </section>
   );
 };

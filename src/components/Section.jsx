@@ -13,8 +13,8 @@ const Section = ({ children }) => {
       <div
         ref={containerRef}
         className="scroll-container flex max-sm:flex-col"
-        onWheel={handleScroll} // Attach the handleScroll function to the onWheel event
-        style={{ overflowX: 'scroll', overflowY: 'hidden'}} // Ensure overflow properties are set
+        onWheel={handleScroll}
+        style={{ overflowX: 'scroll', overflowY: 'hidden',scrollBehavior:'smooth'}}
       >
         {children}
       </div>
